@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form with Table</title>
+    <style>
+        .tbl
+        {
+           border: 2px solid black;
+           padding: 8px;
+        }
+    </style>
+</head>
+<body>
+<center>
+    <table width="20%" class="tbl" cellspacing="15px">
+        <tr>
+            <th colspan="2" style="font-size: 25px; color:cornflowerblue;">Novell Services Login</th>
+        </tr>
+        <tr>
+            <td>Username</td>
+            <td><input type="text" val="" /></td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td><input type="password" val="" /></td>
+        </tr>
+        <tr>
+            <td>City of Employment</td>
+            <td><input type="text" val="" /></td>
+        </tr>
+        <tr>
+            <td>Web server</td>
+            <td>
+                <select>
+                    <option>--Choose a server--</option>
+                    <option>Apache</option>
+                    <option>NGINX</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr><!--Left empty for giving space--></tr>
+        
+        <tr>
+            <td rowspan="4">Please specify your role:</td>
+            <td><input type="radio" name="rdo">Admin</input></td>
+        </tr>
+        <tr>
+            <td><input type="radio" name="rdo">Engineer</input></td>
+        </tr>
+        <tr>
+            <td><input type="radio" name="rdo">Manager</input></td>
+        </tr>
+        <tr>
+            <td><input type="radio" name="rdo">Guest</input></td>
+        </tr>
+
+        <tr><!--Left empty for giving space--></tr>
+
+        <tr>
+            <td rowspan="3">Single Sign-on to the following:</td>
+            <td><input type="checkbox">Mail</input></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox">Payroll</input></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox">Self-service</input></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="button" value="Login" />
+            <input type="reset" /></td>
+        </td>
+        </tr>
+    </table>
+</center>
+</body>
+</html>

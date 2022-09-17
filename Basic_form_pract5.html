@@ -1,0 +1,65 @@
+<!--Basic Form-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Basic Form</title>
+</head>
+<body>   
+    <!--Fieldset is used for applying border to form in html-->
+    <!--legend is used to give general description/heading before form-->
+    <!--action attribute is used to tell where data needs to be send on submit-->
+    <!--datalist is used to give suggestion at the time of user input-->
+
+    <legend>Application form</legend>
+<fieldset>   
+<form action="mailto:abhinavtripathi2496@gmail.com">
+   <label for="nm">Name</label><input type="text" value="" id="nm" />
+   <br>
+   <label for="pno">Phone No</label><input type="number" value="" id="pno" />
+   <br>
+   <label for="eml">Email</label><input type="email" value="" id="eml" />
+   <br>
+   <label for="pwd">Password</label><input type="password" value="" id="pwd" />
+   <br>
+   <label for="Cntry">Country</label>
+   <select>
+    <option>India</option>
+    <option>USA</option>
+    <option>None/Else</option>
+   </select>
+   <br>
+
+    Date of Birth: <input type="datetime-local" />
+    <br>
+
+    <datalist id="abhi">
+        <option value="State">UP</option>
+        <option value="City">Allahabad</option>
+        <option value="City">New Delhi</option>
+        <option value="City">Kanpur</option>
+    </datalist>
+    Where you live: <input type="text" list="abhi" />
+
+    <br>
+
+    Gender:<input type="radio" name="gen">Male</input>
+    <input type="radio" name="gen">Female</input>
+    <br>
+
+    Interested IN: <input type="checkbox">English</input>
+    <input type="checkbox">Maths</input>
+    <input type="checkbox">Science</input>
+    <br>
+
+    Upload your profile pic <input type="file"></input>
+    <br>
+
+    <textarea rows="10" cols="60" placeholder="Write Suggestions, if any"></textarea>
+
+    <br>
+    <input type="reset" />
+    <input type="button" value="Submit Now" />
+    </form>
+    </fieldset>
+    </body>
+    </html>
