@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .tbl
+        {
+            border: 1px solid black;
+            padding: 20px;
+            background-color: blueviolet;
+            color: white;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <table class="tbl">
+        <tr>
+            <td>FIRST NAME</td>
+            <td><input type="text" maxlength="30"> (max 30 characters a-z and A-Z)</td>
+        </tr>
+        <tr>
+            <td>LAST NAME</td>
+            <td><input type="text" maxlength="30"> (max 30 characters a-z and A-Z)</td>
+        </tr>
+        <tr>
+            <td>DATE OF BIRTH</td>
+            <td><input type="datetime-local"></td>
+        </tr>
+        <tr>
+            <td>EMAIL ID</td>
+            <td><input type="email"></td>
+        </tr>
+        <tr>
+            <td>MOBILE NUMBER</td>
+            <td><input type="number" maxlength="10"></td>
+        </tr>
+        <tr>
+            <td>ADDRESS</td>
+            <td><textarea rows="8" cols="20"></textarea></td>
+        </tr>
+        <tr>
+            <td>CITY</td>
+            <td><input type="text" maxlength="10"></td>
+        </tr>
+        <tr>
+            <td>MOBILE NUMBER</td>
+            <td><input type="number" maxlength="10">(max 30 characters a-z and A-Z)</td>
+        </tr>
+        <tr>
+            <td>PIN CODE</td>
+            <td><input type="number" maxlength="6">(6 digit number)</td>
+        </tr>
+        <tr>
+            <td>STATE</td>
+            <td><input type="text" maxlength="30"> (max 30 characters a-z and A-Z)</td>
+        </tr>
+        <tr>
+            <td>COUNTRY</td>
+            <td><input type="text" placeholder="india"></td>
+        </tr>
+        <tr>
+            <td>HOBBIES</td>
+            <td>
+                Drawing<input type="checkbox">
+                Singing<input type="checkbox">
+                Dancing<input type="checkbox">
+                Sketching<input type="checkbox">
+                Others<input type="checkbox">
+                <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <td>QUALIFICATION</td>
+            <td>
+                <table class="tbl" cellpadding="5px">
+                <tr>
+            
+                    <th>S No</th>
+                    <th>Examination</th>
+                    <th>Record</th>
+                    <th>Percentage</th>
+                    <th>Year of Passing</th>
+                </tr>
+                <tr>
+            
+                    <td>1</td>
+                    <td>Class X</td>
+                    <td><input type="text"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                </tr>    
+
+                <tr>
+                    <td>2</td>
+                    <td>Class XII</td>
+                    <td><input type="text"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                </tr>  
+
+                <tr>
+                    <td>3</td>
+                    <td>Graduation</td>
+                    <td><input type="text"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                </tr>  
+
+                <tr>
+                    <td>4</td>
+                    <td>Masters</td>
+                    <td><input type="text"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                </tr>
+                
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>(10 char max)</td>
+                    <td>(Upto 2 decimal)</td>
+                    <td></td>
+                </tr>
+                </tr>
+            </table>
+            </td>
+        </tr>
+        <tr>
+            <td>COURSE APPLIED FOR</td>
+        <td>
+            BCA<input type="radio" name="rdo">
+            B.Com<input type="radio" name="rdo">
+            B.Sc<input type="radio" name="rdo">
+            B.A<input type="radio" name="rdo">
+        </td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td>
+                <input type="submit" value="Submit">
+                 <input type="reset">
+            </td>
+        </tr>
+
+    </table>
+</center>
+</body>
+</html>
